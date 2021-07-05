@@ -1,0 +1,32 @@
+{% extends "blog/base.html" %}
+{% block content %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <title>Vtuber Club</title>
+</head>
+
+
+<body>
+    <div class="tophand"></div>
+
+    <div class="placement">
+        <img src="/static/images/LogoutBg.jpg" width="600">
+        <div class="insideplacement">
+            <p>You have been logged out</p><br>
+            <a href="{% url 'login' %}" style="padding: 10px 20px;
+            background: #1950BB;
+            color: white;
+            border-radius: 25px;">Log In Again</a>
+        </div>
+        <img src="/static/images/LogoutBg2.jpg" width="600">
+    </div>
+
+    {% endblock content %}
+
+</body>
+
+</html>

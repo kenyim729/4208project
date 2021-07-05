@@ -1,0 +1,360 @@
+.bgcircle{
+  width: 850px;
+  height: 850px;
+  border-radius: 850px;
+  background-color: white;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+.login01{
+  background-image:url('/static/images/login1.png');
+  background-repeat:no-repeat;
+	background-size: 40%; 
+}
+.login02{
+  background-image:url('/static/images/login2.png');
+  background-repeat:no-repeat;
+  background-position:right top;
+	background-size: 41.5%; 
+}
+.forget{
+  background-image:url('/static/images/forget1.png');
+  background-repeat:no-repeat;
+	background-size: 47%;
+}
+.forget2{
+  background-image:url('/static/images/forget2.png');
+  background-repeat:no-repeat;
+  background-position:right top;
+	background-size: 38%;
+}
+.reset{
+  background-image:url('/static/images/reset1.png');
+  background-repeat:no-repeat;
+	background-size: 75%; 
+}
+.reset2{
+  background-image:url('/static/images/reset2.png');
+  background-repeat:no-repeat;
+  background-position:right top;
+	background-size: 55%; 
+}
+.bgcircle p{
+  position: relative;
+  font-size: 50px;
+  left: 250px;
+  top: 150px;
+  font-family: cursive;
+}
+.bgcircle p2{
+  position: relative;
+  font-size: 18px;
+  left: 255px;
+  top: 100px;
+  font-family: cursive;
+}
+.bgcircle p3{
+  position: relative;
+  font-size: 18px;
+  left: 200px;
+  top: 100px;
+  font-family: cursive;
+}
+input[type=text] { 
+
+  width: 425px;
+  height: 60px;
+  background: #D5E9ED;
+  border-radius: 15px;
+  box-sizing: border-box;
+  outline-style: none;
+  text-align: left;
+  border: none;
+  
+}
+input[type=email] { 
+  width: 425px;
+  height: 60px;
+  background: #D5E9ED;      
+  border-radius: 15px;
+  box-sizing: border-box;
+  outline-style: none;
+  text-align: left;
+  border: none;
+
+}
+input[type=password] { 
+  width: 425px;
+  height: 60px;
+  background: #D5E9ED;
+  border-radius: 15px;
+  box-sizing: border-box;
+  outline-style: none;
+  border: none;
+  text-align: left;
+
+}
+button{
+  position: relative;
+  width: 100px;
+  height: 40px;
+  bottom: 0;
+  background-color: #1950BB;
+  color: white;
+  border-radius: 43px;
+  border: none;
+  font-weight: bold;
+  font-size: 17px;
+}
+button:hover,
+button:focus {
+  background-color: #1647a6;
+}
+button:active {
+  background-color: #0f3275;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.col-lg-9{
+  position: relative;
+  width: 1200px;
+  height: 40px;
+  left: 210px;
+  top: 300px;
+}
+.col-lg-9 .login{
+  background-color: pink;
+}
+.login .input[type=text]{
+  border-color: #000;
+  border: solid 1px;
+  padding: 15px 15px;
+}
+.singup input[type=text]{
+  position: absolute;
+  width: 100%;
+  height: 85px;
+  background: #D5E9ED;
+  border-radius: 43px;
+  box-sizing: border-box;
+  outline-style: none;
+  border: none;
+  text-align: left;
+}
+.fieldWrapper {
+  margin-bottom: 15px;
+}
+
+.signup-bg {
+  overflow: hidden;
+  padding-top: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+.pekora {
+  float: left;
+}
+
+#signform {
+  float: right;
+  margin-left: 150px;
+  padding: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+#signform label{
+  color: #B0B0B0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn-group {
+  position: relative;
+  top: 50%;
+  margin: 0 auto;
+}
+#sign_up_btn {
+  float: left;
+  margin-left: 90px;
+}
+#reset_btn{
+  float: right;
+  margin-right: 90px;
+}
+#signform h1 {
+  font-size: 50px;
+  top: -40px;
+  position: inherit;
+  letter-spacing:1px;
+  font-weight: 800;
+  padding-bottom: 40PX;
+}
+.zero{
+  text-align: center;
+    width: 20x;
+    background: linear-gradient(90deg, red, blue);
+    margin-top: 20px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 98px;
+    font-family: Fantasy;
+}
+
+
+#donate-board1{
+  margin-left: 3px;
+  display: inline-block;
+  width: 297px;
+  height: 600px;
+  position: relative;
+  border-color: #000;
+  border: solid 2px;
+  border-radius: 10px;
+  /* margin-top: 83px; */
+  background-color: red;
+}
+
+.one{
+  position: relative;
+  color: #fff;
+  margin-top: 100px;
+  font-size: large;
+  font-family: comic sans ms;
+  font-weight: bold;
+  text-align: center;
+}
+
+.img1{
+  position: relative;
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin-top: 100px;
+  margin-left: 23px;
+}
+
+
+#donate-board2{
+  display: inline-block;
+  width: 297px;
+  height: 600px;
+  position: relative;
+  border-color: #000;
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: orange;
+}
+
+.two{
+  position: relative;
+  color: #fff;
+  margin-top: 100px;
+  font-size: large;
+  font-family: comic sans ms;
+  font-weight: bold;
+  text-align: center;
+}
+
+.img2{
+  position: relative;
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin-top: 100px;
+  margin-left: 23px;
+}
+
+#donate-board3{
+  display: inline-block;
+  width: 297px;
+  height: 600px;
+  position: relative;
+  border-color: #000;
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: #C3D822;
+}
+
+.three{
+  position: relative;
+  color: #fff;
+  margin-top: 100px;
+  font-size: large;
+  font-family: comic sans ms;
+  font-weight: bold;
+  text-align: center;
+}
+
+.img3{
+  position: relative;
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin-top: 100px;
+  margin-left: 23px;
+}
+
+#donate-board4{
+  display: inline-block;
+  width: 297px;
+  height: 600px;
+  position: relative;
+  border-color: #000;
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: green;
+}
+
+.four{
+  position: relative;
+  color: #fff;
+  margin-top: 100px;
+  font-size: large;
+  font-family: comic sans ms;
+  font-weight: bold;
+  text-align: center;
+}
+
+.img4{
+  position: relative;
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin-top: 100px;
+  margin-left: 23px;
+}
+
+#donate-board5{
+  display: inline-block;
+  width: 297px;
+  height: 600px;
+  position: relative;
+  border-color: #000;
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: blue;
+}
+
+.five{
+  position: relative;
+  color: #fff;
+  margin-top: 100px;
+  font-size: large;
+  font-family: comic sans ms;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.img5{
+  position: relative;
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin-top: 100px;
+  margin-left: 23px;
+}

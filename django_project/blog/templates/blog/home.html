@@ -1,0 +1,144 @@
+{% extends "blog/base.html" %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <title>Vtuber Club</title>
+    
+</head>
+
+
+<body>
+ 
+    {% block content %}
+    <div>
+        <P Align=center><img src="../static/images/hololivebg.png" alt="bg" class="exImg"></P> 
+    </div>
+
+    <div id="fw">
+        <div id="featured">
+
+            <div class="main-title">
+                <h2>Introduction</h2>
+                <br><br><br>
+                <span class="byline">
+                    A virtual YouTuber (VTuber), is an online entertainer that uses a (usually anime-inspired) computer graphics-generated avatar.
+                    The first entertainer to coin the phrase "virtual YouTuber", Kizuna AI, began live streaming in late 2016, and her popularity started a VTuber trend within Japan and later worldwide.
+                    By 2020, there were over 10,000 VTubers.
+                </span>
+            </div>
+
+            <div class="main-title">
+                <h2>Popular Vtuber Management Company</h2>
+            </div>
+
+
+            <div id="three">
+                <div class="inner">
+                <article>
+                    <a href="https://www.hololive.tv/"><img src="../static/images/hololive.png" alt="HOLOLIVElogo"></a>
+                        <h3>HOLOLIVE</h3>
+                    
+                </article>
+                <article>
+                    <a href="https://entum.jp/"><img src="../static/images/entum.jpg" alt="ENTUlogo"></a>
+                        <h3>ENTUM</h3>
+         
+                </article>
+                <article>
+                    <a href="https://upd8.jp/"><img src="../static/images/upd8.jpg" alt="upd8logo"></a>
+                        <h3>upd8</h3>
+                
+                </article>
+                <article>
+                    <a href="https://nijisanji.ichikara.co.jp/"><img src="../static/images/rainbow.jpg" alt="rainbowlogo"></a>
+                        <h3>にじさんじ</h3>
+              
+                </article>
+                <article>
+                    <a href="https://v-react.com/"><img src="../static/images/ReAcT.jpg" alt="ReAcTlogo"></a>
+                        <h3>ReAcT</h3>
+              
+                </article>
+                <article>
+                    <a href="https://vrlive.party/"><img src="../static/images/live.png" alt="livelogo"></a>
+                        <h3>.LIVE</h3>
+               
+                </article>
+            </div>
+
+            <div class="main-title">
+            <h2>News</h2><br>
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div id="new" class="main-title">
+                            <img src="../static/images/new1.jpg" />
+                            <div>
+                                <span class="byline">
+                                    <br><br>
+                                    ! Big Announcement !
+                                    <br><br>
+                                    Thursday, May 13. 9 PM JST
+                                    <br>
+                                    Mel's 3-year anniversary 3D LIVE concert celebration!!!
+                                    Keep your schedule free for this, 'k?
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div id="new" class="main-title">
+                            
+                            <img src="../static/images/new2.jpg" />
+                            <div>
+                                <span class="byline">
+                                    <br><br>
+                                    ときのそら.さくらみこ
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div id="new" class="main-title">
+                            
+                            <img src="../static/images/new3.jpg" />
+                            <div>
+                                <span class="byline">
+                                    <br><br>
+                                    ロボ子さん.姫森ルーナ
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    
+                </button>
+                
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    
+                </button>
+            </div>
+            
+        </div>
+    </div>
+   
+    {% endblock content %}
+
+</body>
+
+</html>

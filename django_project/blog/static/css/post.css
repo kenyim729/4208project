@@ -1,0 +1,56 @@
+.content-section5 {
+    width: 550px;
+    padding: 10px 20px;
+    border: 1px solid #bbbbbb;
+    border-radius: 3px;
+    margin: 75px 0px 0px 100px ;
+    position: relative;
+    display: flex;
+}
+
+.background4{
+    background-image:url('/static/images/postDetailBg.jpg');
+    background-repeat:no-repeat;
+    background-position:right top;
+    background-size: 45%;
+}
+
+.background5{
+    background-image:url('/static/images/deletePostBg.png');
+    background-repeat:no-repeat;
+    background-position:right top;
+    background-size: 45%;
+}
+
+.forum_titl{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 40px;
+    font-size: 40px;
+    margin-top: 70px;
+}
+
+.content-section6 {
+    width: 520px;
+    padding: 10px 20px;
+    margin: 30px 0px 0px 100px ;
+    position: relative;
+    display: flex;
+}
+
+
+.content-section6 form{
+    margin-top: 120px;
+}
+
+.content-section6 h2{
+    padding: 20px;
+}
+
+.content-section6 a{
+    padding: 10px 20px;
+    background: #1950BB;
+    color: white;
+    border-radius: 25px;
+}

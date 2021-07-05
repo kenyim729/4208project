@@ -1,0 +1,125 @@
+.top{
+    height: 50px;
+}
+
+.paragraph p{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    font-size: 17px;
+}
+
+.images{
+    text-align: center;
+}
+
+.topleft h1{
+    margin-left: 10%;
+}
+
+.contact p{
+    margin-left: 15%;
+    font-size: 17px;
+}
+
+.logout h1{
+    margin-left: 37%;
+}
+
+.placement{
+    display: inline;
+    display: flex;
+}
+
+.placement p{   
+    font-size: 25px;
+    font-weight: 700;
+    color: #2155b5;
+}
+
+
+.insideplacement{
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.placement ａ{
+    padding: 10px 20px;
+    background: #1950BB;
+    color: white;
+    border-radius: 25px;
+}
+
+.logout{
+    margin-left: 7%;
+}
+
+.tophand{
+    height: 50px;
+}
+
+.tophand2{
+    height: 30px;
+}
+
+.form .form-group{
+    width: 450px;
+    margin: 30px;
+}
+
+.form2 .form-group{
+    width: 450px;
+    margin: 30px;
+}
+
+.form3 .form-group{
+    width: 450px;
+    margin: 30px;
+}
+
+
+.content-section {
+    padding: 10px 20px;
+    margin: 20px;
+  }
+
+.content-section2 {
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+.content-section3 {
+    padding: 10px 20px;
+    margin: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 75px;
+}
+
+
+.form{
+    margin-left: 900px;
+}
+
+
+.rounded-circle{border-radius:50%}
+
+.formreset{
+    width: 550px;
+    margin-right: 1000px;
+}
+
+.ed{
+    margin-left: 930px;
+}
+
+.media{
+    margin-left: 50px;
+}
+
+.downnnnn{
+    height: 365px;
+}
